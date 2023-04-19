@@ -1,0 +1,356 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(Ubuntu-Regular.ttf);
+}
+@font-face {
+    font-family: 'Segoe UI';
+    src: url(Segoe\ UI.ttf);
+}
+body {
+    margin: 0;
+}
+.icon-img {
+    margin-left: 648px;
+}
+.nav-header {
+    margin-left: 327px;
+    margin-top: 48px;
+}
+.header-sec {
+    display: flex;
+}
+.hotel-a, .facility-a, .r-and-r, .contact-a {
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(149, 117, 84, 1);
+    margin-left: 45px;
+}
+.button-search {
+    margin-left: 35px;
+    width: auto;
+    height: 20px;
+    margin-top: 55px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.the-form {
+    background-color: rgba(17, 17, 17, 1);
+    height: 119px;
+    width: 100%;
+    margin-top: 30px;
+}
+form {
+    padding-top: 27px;
+    margin-left: 318px;
+}
+.smth, .smth1, .smth2 {
+    width: 192px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid black;
+    padding-left: 17px;
+}
+.smth1, .smth2, .submit-button {
+    margin-left: 13px;
+}
+option {
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.submit-button {
+    height: 60px;
+    width: 202px;
+    border-radius: 10px;
+    background-color:rgba(223, 170, 91, 1);
+    border: 1px solid black;
+}
+.button-span {
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 23px;
+    color: white;
+}
+
+.our-hotel {
+    background-image: url(image1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 790px;
+    padding-top: 323px;
+}
+.text-button-div {
+    height: 248px;
+    width: 987px;
+    margin-left: 244px;
+}
+.title {
+    font-family: 'Segoe UI';
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 106px;
+    color: white;
+}
+.subtitle {
+    margin-left: 230px;
+    font-family: 'Ubuntu';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: white;
+}
+.exp-button {
+    height: 76px;
+    width: 371px;
+    border-radius: 10px;
+    background-color: rgba(223, 170, 91, 1);
+    border: 1px solid black;
+    margin-top: 41px;
+    margin-left: 291px;
+}
+.exp-button-span {
+    font-family: 'Ubuntu';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: white;
+}
+.facilities {
+    height: 289px;
+    width: 1319px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: -159px;
+    margin-left: 61px;
+    padding-top: 42px;
+}
+.pictures {
+    display: flex;
+    margin-left: 194px;
+    margin-top: 45px;
+}
+.fac-span {
+    font-family: 'Ubuntu';
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 52px;
+    margin-left: 567px;
+    color: rgba(149, 117, 84, 1);
+}
+.facility2, .facility3, .facility4, .facility5 {
+    margin-left: 165px;
+}
+.r-span {
+    font-family: 'Ubuntu';
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 52px;
+    margin-left: 564px;
+    margin-top: 56px;
+    color: rgba(149, 117, 84, 1);
+}
+.container, .container2 {
+    display: flex;
+    height: 500px;
+}
+.container {
+    margin-top: 53px;
+}
+.container2 {
+    margin-top: 58px;
+}
+.standard-twin, .standard, .standard-view, .deluxe {
+    height: 500px;
+    width: 630px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 7.48%, #000000 100%);
+    margin-left: 60px;
+    border-radius: 10px;
+}
+.standard-twin {
+    padding-top: 301px;
+    background-image: url(FqqiAvJejto.png);
+}
+.standard {
+    padding-top: 302px;
+    background-image: url(standard.png);
+}
+.standard-view {
+    padding-top: 287px;
+    background-image: url(standard\ view.png);
+}
+.deluxe {
+    padding-top: 287px;
+    background-image: url(deluxe.png);
+}
+.st-span {
+    font-family: 'Ubuntu';
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 46px;
+    color: white;
+    margin-left: 125px;
+}
+.st-button {
+    height: 76px;
+    width: 244px;
+    border-radius: 10px;
+    background-color: rgba(223, 170, 91, 1);
+    margin-left: 194px;
+    margin-top: 19px;
+}
+.stb-span {
+    font-family: 'Ubuntu';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: white;
+}
+.s-span {
+    font-family: 'Ubuntu';
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 46px;
+    color: white;
+    margin-left: 170px;
+}
+.sw-span {
+    font-family: 'Ubuntu';
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 46px;
+    color: white;
+    margin-left: 121px;
+}
+.d-span {
+    font-family: 'Ubuntu';
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 46px;
+    color: white;
+    margin-left: 203px;
+}
+.gara-section {
+    width: 1319px;
+    margin-top: 53px;
+    margin-left: 61px;
+    padding-top: 61px;
+    height: 327px;
+}
+.gara-span {
+    font-family: 'Ubuntu';
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 52px;
+    margin-left: 451px;
+    color: rgba(149, 117, 84, 1);
+}
+.gara-button {
+    height: 76px;
+    width: 418px;
+    border-radius: 10px;
+    background-color: rgba(223, 170, 91, 1);
+    border: none;
+    margin-left: 451px;
+
+}
+.gara-button-span {
+    font-family: 'Ubuntu';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: white;
+}
+footer {
+    background-color: rgba(17, 17, 17, 1);
+    width: 100%;
+    height: 469px;
+    padding-top: 61px;
+    padding-left: 55px;
+    padding-right: 70px;
+    display: flex;
+}
+.address {
+    height: 83px;
+    width: 263px;
+    margin-top: 68px;
+}
+b {
+    font-family: 'Ubuntu';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: white;
+}
+.email, .phone-number {
+    font-family: 'Ubuntu';
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 28px;
+    color: white;
+}
+.footer1 {
+    width: 263px;
+}
+.footer2 {
+    margin-left: 232px;
+}
+.fnpa {
+    font-family: 'Ubuntu';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    color: white;
+    text-decoration: none;
+}
+.label1{
+    font-family: 'Ubuntu';
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 34px;
+    color: white;
+}
+.input-e {
+    height: 75px;
+    width: 371px;
+    border-radius: 10px;
+    padding-left: 27px;
+    border:1px solid black;
+}
+::placeholder {
+    font-family: 'Ubuntu';
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+}
+.subs-button {
+
+    height: 75px;
+    width: 371px;
+    border-radius: 10px;
+    background-color: rgba(223, 170, 91, 1);
+    color: white;
+    border: 1px solid black;
+    margin-top: 24px;
+    font-family: 'Ubuntu';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;  
+}
+.subscription {
+    margin-left: 251px;
+}
+.butt {
+    width: 380px;
+}
